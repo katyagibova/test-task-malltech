@@ -1,4 +1,4 @@
-# yeltsin
+# test-task-malltech
 
 ## Project setup
 ```

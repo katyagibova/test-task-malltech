@@ -231,8 +231,7 @@ export default {
     getItems(){
       api.getAllPeople().then((response) => {
         this.people = response.data
-        this.paginationLength = Math.ceil(response.data.length / 3) 
-        console.log(response)
+        this.paginationLength = Math.ceil(response.data.length / 3)
       })
     },
     createItem() {
